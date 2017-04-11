@@ -1,6 +1,38 @@
-#siteBackground {
-    background-image: url("http://placehold.it/1920x1080");
-    background-repeat: no-repeat;
-    height: ;
-    width: ;
+body {
+    margin: 0;
+}
+
+#frontImgContainer {}
+
+#frontImg {
+    display: block;
+    height: 100%;
+    width: auto;
+    padding: 0 0 49% 0;
+    background: url("http://placehold.it/1920x1080") no-repeat center center;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+    background-attachment: fixed;
+}
+
+#frontImgText {
+    position: absolute;
+    bottom: 180px;
+    left: 250px;
+}
+
+#logoNamn {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    position: absolute;
+}
+
+#infoContainer {
+    position: absolute;
+}
+
+#infoText {
+    margin: 8% 25% 5% 25%;
 }
