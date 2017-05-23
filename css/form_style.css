@@ -1,0 +1,59 @@
+html {
+	background-image: url('../img/left.png');
+	background-repeat: repeat-y;
+	background-size: 30% ;
+}
+
+body {
+
+}
+
+.backgorund-form {
+	background-image: url('../img/left.png');
+	background-repeat: repeat-y;
+	background-size: 30% ;
+	z-index: -1;
+	margin-top: -20px;
+
+}
+
+.Formrubrik {
+	text-align: center;
+	margin-bottom: 4%;
+
+}
+
+.form-control {
+	width: 50%;
+	margin: auto;
+    border: 3px solid #9999f9;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.center_div {
+	margin: auto;
+	width: 50%;
+	border: 0px solid black;
+	padding: 10px;
+	background-color: transparent;
+	padding-top: 50px;
+}
+
+.form button {
+position: absolute;
+left: 25%;
+}
+
+.imgleft {
+position: absolute;
+float: left;
+z-index: -1;
+top: 0px;
+}
+.imgright{
+position: absolute;
+float: right;
+}
+
+

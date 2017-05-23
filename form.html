@@ -10,21 +10,43 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
- <link rel="stylesheet" type="text/css" href="form_style.css">
-
-
-	<meta charset="UTF-8">
-	<title>Formulär</title>
+ <link rel="stylesheet" type="text/css" href="./css/form_style.css">
+    <meta charset="UTF-8">
+    <title>Formulär</title>
 
 </head>
 
 <body>
 
-	<h1 class="Formrubrik">Information<h1>
+    <div class="backgorund-form">
 
-    <input class="form-control input-lg" type="text" placeholder="Företagsnamn">
-    <textarea class="form-control input-lg" rows="3" placeholder="Vad gör ditt företag?" ></textarea>
-    <textarea class="form-control input-lg" rows="3" placeholder="Vad är syftet för just denna hemsidan?" ></textarea>
-    <textarea class="form-control input-lg" rows="3" placeholder="Mer information" ></textarea>
+
+
+    <!-- flyttas -->
+        <div class="col-sm-12">
+    <div class="text-center">
+        <a href="login.php"> <button class="btn btn-default">Admin login</button></a>
+    </div>
+</div>
+    <!-- flyttas  -->
+
+
+    <h1 class="Formrubrik">Ange information</h1>
+
+
+        <form class="form" action="formdone.php" method="post">
+    <input type="text" name="namnforetag" class="form-control input-lg" type="text" placeholder="Företagsnamn">
+    <textarea type="text" name="gorforetag" class="form-control input-lg" rows="3" placeholder="Vad gör ditt företag?" ></textarea>
+    <textarea type="text" name="syfteforetag" class="form-control input-lg" rows="3" placeholder="Vad är syftet för just denna hemsidan?" ></textarea>
+    <textarea type="text" name="infoforetag" class="form-control input-lg" rows="4" placeholder="Övrig information, design/ideér/annat" ></textarea>
+    <input type="text" name="teleforetag" class="form-control input-lg" rows="1" placeholder="Telefonnummer" ></input>
+    <input type="email" name="emailforetag" class="form-control input-lg" rows="1" placeholder="Email" ></input>
+    <a href="formdone.php"><button type="submit" class="btn btn-default">Submit</button></a>
+        </form>
+
+</div>
+
+
+
 </body>
 </html>
